@@ -1,3 +1,5 @@
+import NoScrollLink from "../components/NoScrollLink";
+
 export default function Colours() {
     return (
       <div className="flex flex-col items-center justify-center py-2 bg-gray-800 text-white">
@@ -18,9 +20,14 @@ export default function Colours() {
             <p className="my-4 bg-green-900">
               Etiam interdum praesent dapibus. Eros dignissim lobortis semper ac urna consectetur ullamcorper ultrices penatibus? Erat turpis luctus, tristique ligula sodales diam volutpat lacus dis ridiculus imperdiet ut. Senectus ullamcorper quisque integer pulvinar auctor urna volutpat platea suspendisse fringilla. Donec rutrum ultricies erat maecenas justo, rhoncus aliquet nunc donec. Pharetra at hac ullamcorper felis sagittis quisque. Nullam cras orci dignissim lacus conubia nullam. Donec inceptos dui maecenas in primis orci aliquam. Porttitor luctus ornare aliquam dapibus sociosqu libero ultrices gravida arcu.
             </p>
+            <p className="my-4 bg-yellow-900">
+              Etiam interdum praesent dapibus. Eros dignissim lobortis semper ac urna consectetur ullamcorper ultrices penatibus? Erat turpis luctus, tristique ligula sodales diam volutpat lacus dis ridiculus imperdiet ut. Senectus ullamcorper quisque integer pulvinar auctor urna volutpat platea suspendisse fringilla. Donec rutrum ultricies erat maecenas justo, rhoncus aliquet nunc donec. Pharetra at hac ullamcorper felis sagittis quisque. Nullam cras orci dignissim lacus conubia nullam. Donec inceptos dui maecenas in primis orci aliquam. Porttitor luctus ornare aliquam dapibus sociosqu libero ultrices gravida arcu.
+            </p>
           </section>
+          <NoScrollLink href='/'>
+            <a className="px-2 py-1 border block mb-10">Back to home</a>
+          </NoScrollLink>
         </main>
       </div>
     )
   }
-  

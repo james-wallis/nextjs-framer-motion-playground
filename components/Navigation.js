@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from './NoScrollLink';
 
 const links = [
     {
@@ -14,7 +14,7 @@ const links = [
 
 const Navigation = () => {
     return (
-        <nav className="w-screen flex justify-center align-center border-b py-2">
+        <nav className="w-screen flex justify-center align-center border-b border-t py-2 bg-white">
             {
                 links.map(({ name, path, active }) => (
                     <Link href={path} key={path}>
