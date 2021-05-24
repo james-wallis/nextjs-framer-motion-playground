@@ -1,0 +1,3 @@
+.navigation-underline {
+    @apply w-full border border-button-primary-bg;
+}

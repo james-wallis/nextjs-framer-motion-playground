@@ -6,10 +6,6 @@ const variants = {
         y: -300,
     },
     enter: {
-        // opacity: 0,
-        // x: -200,
-        // y: 0,
-        // // scale: 0.8,
         scale: [0.6, 0.6, 1],
         y: [-300, 0, 0],
         opacity: [0, 1, 1],

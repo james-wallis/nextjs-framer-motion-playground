@@ -6,6 +6,8 @@ import Navigation from '../components/Navigation'
 import { AnimatePresence } from 'framer-motion'
 import AnimatedLayout from '../components/AnimatedLayout'
 
+import '../styles/globals.css'
+
 function MyApp({ Component, pageProps }) {
   const { pathname } = useRouter()
   return (
