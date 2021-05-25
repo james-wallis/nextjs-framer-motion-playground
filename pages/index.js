@@ -8,7 +8,8 @@ export default function Home() {
         <p className="my-2">This app is a playground for using Framer Motion with Next.js. It's mostly made up with plain looking content and lorem ipsum.</p>
         <h3 className="my-2 mt-5 text-xl">So far I've added:</h3>
         <ul className="list-disc ml-8">
-          <li>nothing</li>
+          <li>Page transitions</li>
+          <li>Animated the active indicator on the navigation bar</li>
         </ul>
       </section>
       <section className="md:w-2/3">
