@@ -10,6 +10,10 @@ const links = [
     {
         name: 'Colours',
         path: '/colours',
+    },
+    {
+        name: 'Scroll',
+        path: '/scroll',
     }
 ]
 
